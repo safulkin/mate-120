@@ -16,9 +16,9 @@ SLOT="0"
 IUSE=""
 
 COMMON_DEPEND="
-	>=dev-libs/glib-2.36:2
+	>=dev-libs/glib-2.50:2
 	>=mate-base/mate-panel-1.17.0
-	>=x11-libs/gtk+-3.14:3
+	>=x11-libs/gtk+-3.22:3
 	x11-libs/libfakekey:0
 	x11-libs/libwnck:3
 	x11-libs/libXtst:0

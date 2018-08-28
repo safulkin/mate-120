@@ -18,13 +18,13 @@ SLOT="0"
 IUSE="caja magic packagekit"
 
 COMMON_DEPEND="
-	>=dev-libs/glib-2.32.0:2
+	>=dev-libs/glib-2.50.0:2
 	>=dev-libs/json-glib-0.14:0
 	x11-libs/gdk-pixbuf:2
 	x11-libs/pango:0
 	virtual/libintl:0
 	caja? ( >=mate-base/caja-1.17.1 )
-	>=x11-libs/gtk+-3.14:3[X]
+	>=x11-libs/gtk+-3.22:3[X]
 	magic? ( sys-apps/file )
 	packagekit? ( app-admin/packagekit-base )
 	!!app-arch/mate-file-archiver"

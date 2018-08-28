@@ -15,11 +15,11 @@ SLOT="0"
 
 IUSE="accountsservice appindicator debug examples +introspection"
 
-COMMON_DEPEND=">=dev-libs/glib-2.36:2
+COMMON_DEPEND=">=dev-libs/glib-2.50:2
 	>=sys-auth/polkit-0.102:0[introspection?]
 	x11-libs/gdk-pixbuf:2[introspection?]
 	virtual/libintl:0
-	>=x11-libs/gtk+-3.14.0:3[introspection?]
+	>=x11-libs/gtk+-3.22.0:3[introspection?]
 	appindicator? ( dev-libs/libappindicator:3 )
 	introspection? ( >=dev-libs/gobject-introspection-0.6.2:= )"
 

@@ -22,7 +22,7 @@ SLOT="0"
 IUSE="+introspection +mate packagekit xmp"
 
 COMMON_DEPEND="dev-libs/atk:0
-	>=dev-libs/glib-2.36:2
+	>=dev-libs/glib-2.50:2
 	>=dev-libs/libxml2-2.4.7:2
 	gnome-base/dconf:0
 	>=gnome-base/gvfs-1.10.1:0[udisks]
@@ -31,7 +31,7 @@ COMMON_DEPEND="dev-libs/atk:0
 	virtual/libintl:0
 	x11-libs/cairo:0
 	x11-libs/gdk-pixbuf:2
-	>=x11-libs/gtk+-3.0:3[introspection?]
+	>=x11-libs/gtk+-3.22:3[introspection?]
 	>=x11-libs/libnotify-0.7.0:0
 	x11-libs/libICE:0
 	x11-libs/libSM:0

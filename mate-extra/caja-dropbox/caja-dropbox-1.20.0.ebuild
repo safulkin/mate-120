@@ -20,7 +20,7 @@ IUSE="debug"
 
 COMMON_DEPEND="
 	dev-libs/atk:0
-	>=dev-libs/glib-2.36:2
+	>=dev-libs/glib-2.50:2
 	dev-python/pygtk:2[${PYTHON_USEDEP}]
 	dev-python/pygobject:2[${PYTHON_USEDEP}]
 	>=mate-base/caja-1.17.1
