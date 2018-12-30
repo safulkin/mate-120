@@ -16,7 +16,11 @@ sync-uri = https://github.com/safulkin/mate-120.git
 auto-sync = yes
 priority = 2
 ```
-- Perform system update with **ego sync**
+- Perform system update
+```
+ego sync
+```
+
 **Upgrade steps from Mate 1.18:**
 - emerge --oneshot =mate-base/mate-common-1.20.0
 - emerge --update --deep --newuse mate
